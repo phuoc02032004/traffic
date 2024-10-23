@@ -10,20 +10,20 @@ model = load_model('my_model.h5')
 
 # Từ điển gán nhãn các lớp biển báo
 classes = {
-    1: 'Speed limit (20km/h)', 2: 'Speed limit (30km/h)', 3: 'Speed limit (50km/h)',
-    4: 'Speed limit (60km/h)', 5: 'Speed limit (70km/h)', 6: 'Speed limit (80km/h)',
-    7: 'End of speed limit (80km/h)', 8: 'Speed limit (100km/h)', 9: 'Speed limit (120km/h)',
-    10: 'No passing', 11: 'No passing veh over 3.5 tons', 12: 'Right-of-way at intersection',
-    13: 'Priority road', 14: 'Yield', 15: 'Stop', 16: 'No vehicles', 
-    17: 'Veh > 3.5 tons prohibited', 18: 'No entry', 19: 'General caution',
-    20: 'Dangerous curve left', 21: 'Dangerous curve right', 22: 'Double curve', 
-    23: 'Bumpy road', 24: 'Slippery road', 25: 'Road narrows on the right', 
-    26: 'Road work', 27: 'Traffic signals', 28: 'Pedestrians', 29: 'Children crossing', 
-    30: 'Bicycles crossing', 31: 'Beware of ice/snow', 32: 'Wild animals crossing', 
-    33: 'End speed + passing limits', 34: 'Turn right ahead', 35: 'Turn left ahead', 
-    36: 'Ahead only', 37: 'Go straight or right', 38: 'Go straight or left', 
-    39: 'Keep right', 40: 'Keep left', 41: 'Roundabout mandatory', 42: 'End of no passing', 
-    43: 'End no passing veh > 3.5 tons'
+    1: 'Giới hạn tốc độ (20km/h)', 2: 'Giới hạn tốc độ (30km/h)', 3: 'Giới hạn tốc độ (50km/h)',
+    4: 'Giới hạn tốc độ (60km/h)', 5: 'Giới hạn tốc độ (70km/h)', 6: 'Giới hạn tốc độ (80km/h)',
+    7: 'Kết thúc giới hạn tốc độ (80km/h)', 8: 'Giới hạn tốc độ (100km/h)', 9: 'Giới hạn tốc độ (120km/h)',
+    10: 'Cấm vượt', 11: 'Cấm vượt với xe trên 3.5 tấn', 12: 'Quyền ưu tiên tại giao lộ',
+    13: 'Đường ưu tiên', 14: 'Nhường đường', 15: 'Dừng lại', 16: 'Cấm xe',
+    17: 'Cấm xe trên 3.5 tấn', 18: 'Cấm vào', 19: 'Chú ý chung',
+    20: 'Khúc cua nguy hiểm bên trái', 21: 'Khúc cua nguy hiểm bên phải', 22: 'Hai khúc cua',
+    23: 'Đường gồ ghề', 24: 'Đường trơn', 25: 'Đường hẹp bên phải',
+    26: 'Công trình đường bộ', 27: 'Tín hiệu giao thông', 28: 'Người đi bộ',
+    29: 'Trẻ em qua đường', 30: 'Người đi xe đạp qua đường', 31: 'Chú ý băng tuyết', 32: 'Động vật hoang dã qua đường',
+    33: 'Kết thúc giới hạn tốc độ và cấm vượt', 34: 'Rẽ phải phía trước', 35: 'Rẽ trái phía trước',
+    36: 'Chỉ được đi thẳng', 37: 'Đi thẳng hoặc rẽ phải', 38: 'Đi thẳng hoặc rẽ trái',
+    39: 'Giữ bên phải', 40: 'Giữ bên trái', 41: 'Bắt buộc đi vòng', 42: 'Kết thúc cấm vượt',
+    43: 'Kết thúc cấm vượt với xe trên 3.5 tấn'
 }
 
 # Khởi tạo GUI
